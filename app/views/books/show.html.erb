@@ -1,0 +1,8 @@
+<%= flash[:success] %><br/>
+
+Title<%= @book.title %><br/>
+
+Body<%= @book.body %><br/>
+
+<%= link_to "Edit", edit_book_path(@book.id) %> |
+<%= link_to "Back", books_path %>
